@@ -1,0 +1,4 @@
+﻿id,nombre,edad,ciudad,fecha_compra,monto,metodo_pago
+1,Juan Perez,25.0,Santiago,2023-01-10,10000.0,tarjeta
+4,Ana Torres,28.0,Viña del Mar,2023-04-20,20000.0,tarjeta
+5,Pedro Gomez,45.0,VALPARAISO,2023-05-05,30000.0,efectivo

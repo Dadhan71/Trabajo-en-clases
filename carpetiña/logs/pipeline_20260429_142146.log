@@ -1,0 +1,3 @@
+2026-04-29 14:21:46,697 [INFO] ======== INICIO DEL PIPELINE ========
+2026-04-29 14:21:46,697 [INFO] Ingesta iniciada — origen: data/raw/historial_ventas.csv
+2026-04-29 14:21:46,697 [ERROR] Archivo no encontrado: data/raw/historial_ventas.csv

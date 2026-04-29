@@ -1,0 +1,40 @@
+2026-04-29 14:25:48,580 [INFO] ======== INICIO DEL PIPELINE ========
+2026-04-29 14:25:48,580 [INFO] Ingesta iniciada — origen: data/raw/historial_ventas.csv
+2026-04-29 14:25:48,584 [INFO] Respaldo guardado en: data/raw/historial_ventas_backup.csv
+2026-04-29 14:25:48,586 [INFO] Filas cargadas: 10 | Columnas: ['id', 'nombre', 'edad', 'ciudad', 'fecha_compra', 'monto', 'metodo_pago']
+2026-04-29 14:25:48,589 [INFO] Nulos por columna:
+id              0
+nombre          0
+edad            0
+ciudad          0
+fecha_compra    0
+monto           0
+metodo_pago     0
+2026-04-29 14:25:48,590 [INFO] Filas duplicadas: 1
+2026-04-29 14:25:48,592 [INFO] Shape inicial: (10, 7)
+2026-04-29 14:25:48,593 [INFO] Nulos por columna:
+id              0
+nombre          0
+edad            0
+ciudad          0
+fecha_compra    0
+monto           0
+metodo_pago     0
+2026-04-29 14:25:48,594 [INFO] Filas duplicadas: 1
+2026-04-29 14:25:48,595 [INFO] id — eliminadas 0 filas sin id
+2026-04-29 14:25:48,596 [INFO] edad — eliminadas 1 filas con edad inválida
+2026-04-29 14:25:48,597 [INFO] nombre — eliminadas 1 filas con nombre inválido
+2026-04-29 14:25:48,598 [INFO] monto — imputadas 1 filas con la mediana
+2026-04-29 14:25:48,599 [INFO] ciudad — eliminadas 0 filas con ciudad inválida
+2026-04-29 14:25:48,600 [INFO] fecha_compra — eliminadas 2 filas con fecha inválida
+2026-04-29 14:25:48,601 [INFO] metodo_pago — eliminadas 0 filas con método inválido
+2026-04-29 14:25:48,602 [INFO] duplicados — eliminadas 1 filas duplicadas por id
+2026-04-29 14:25:48,602 [INFO] Shape final: (5, 7)
+2026-04-29 14:25:48,605 [INFO] Semántica 1 — edad fuera de rango: 1 registros
+2026-04-29 14:25:48,605 [INFO] Semántica 2 — monto inválido (<= 0): 0 registros
+2026-04-29 14:25:48,606 [INFO] Semántica 3 — metodo_pago no reconocido: 1 registros
+2026-04-29 14:25:48,607 [INFO] Semántica 4 — fecha futura: 0 registros
+2026-04-29 14:25:48,607 [INFO] Semántica 5 — nombre numérico: 0 registros
+2026-04-29 14:25:48,609 [INFO] Registros válidos:  3
+2026-04-29 14:25:48,609 [INFO] Registros erróneos: 2
+2026-04-29 14:25:48,617 [INFO] ======== PIPELINE FINALIZADO ========
